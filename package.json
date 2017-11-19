@@ -1,0 +1,19 @@
+{
+  "name": "formatrequest",
+  "version": "1.0.0",
+  "description": "Utility methods for formatting req streams in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonStone/formatRequest.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jacksonStone/formatRequest/issues"
+  },
+  "homepage": "https://github.com/jacksonStone/formatRequest#readme"
+}
