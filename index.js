@@ -1,11 +1,13 @@
+
 function initial(req){
 	const fullUrl = req.url;
 	const method = req.method.toLowerCase();
 	const parsedURL = parseURL(fullUrl);
 	const url = parsedURL.url;
 	const parameters = parsedURL.parameters;
+	const headers = req.headers;
 	console.log({url, parameters, method});
-	return {url, parameters, method};
+	return {url, parameters, method, headers};
 }
 
 function attachBody(req, formattedRequest) {
